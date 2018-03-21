@@ -12,13 +12,13 @@ public class Main {
 		System.out.println("Complex A is: "+A);
 		System.out.println("Complex B is: "+B);
 		
-		//Deve haver uma forma melhor de fazer isto...
 		
-		Complex sum;// = new Complex(0,0);
+		
+		Complex sum;
 		sum =A.add(B);
-		Complex sub = new Complex(0,0);
+		Complex sub;
 		sub = Complex.sub(A,B);
-		Complex mult;// = new Complex(0,0);
+		Complex mult;
 		mult = Complex.mult(A,B);
 		
 		//Ver^
