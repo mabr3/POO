@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE simulation SYSTEM "simulation.dtd">
+<simulation finalinst="200" initpop="20" maxpop="10000"
+	comfortsens="3">
+	<grid colsnb="100" rowsnb="100"></grid>
+	<initialpoint xinitial="50" yinitial="50"></initialpoint>
+	<finalpoint xfinal="25" yfinal="70"></finalpoint>
+	<specialcostzones num="8">
+		<zone xinitial="2" yinitial="2" xfinal="3" yfinal="3">4</zone>
+		<zone xinitial="20" yinitial="20" xfinal="25" yfinal="26">5</zone>
+		<zone xinitial="66" yinitial="85" xfinal="70" yfinal="90">8</zone>
+		<zone xinitial="60" yinitial="60" xfinal="65" yfinal="62">9</zone>
+		<zone xinitial="29" yinitial="28" xfinal="30" yfinal="30">10</zone>
+		<zone xinitial="12" yinitial="20" xfinal="14" yfinal="19">11</zone>
+		<zone xinitial="29" yinitial="29" xfinal="31" yfinal="30">12</zone>
+		<zone xinitial="90" yinitial="89" xfinal="89" yfinal="86">13</zone>
+	</specialcostzones>
+	<obstacles num="30">
+		<obstacle xpos="26" ypos="35" />
+		<obstacle xpos="15" ypos="70" />
+		<obstacle xpos="30" ypos="99" />
+		<obstacle xpos="21" ypos="90" />
+		<obstacle xpos="24" ypos="31" />
+		<obstacle xpos="70" ypos="30" />
+		<obstacle xpos="67" ypos="45" />
+		<obstacle xpos="4" ypos="26" />
+		<obstacle xpos="29" ypos="33" />
+		<obstacle xpos="62" ypos="53" />
+		<obstacle xpos="51" ypos="70" />
+		<obstacle xpos="95" ypos="19" />
+		<obstacle xpos="65" ypos="9" />
+		<obstacle xpos="24" ypos="42" />
+		<obstacle xpos="71" ypos="57" />
+		<obstacle xpos="17" ypos="5" />
+		<obstacle xpos="1" ypos="6" />
+		<obstacle xpos="92" ypos="33" />
+		<obstacle xpos="6" ypos="15" />
+		<obstacle xpos="15" ypos="17" />
+		<obstacle xpos="14" ypos="99" />
+		<obstacle xpos="21" ypos="90" />
+		<obstacle xpos="47" ypos="13" />
+		<obstacle xpos="9" ypos="30" />
+		<obstacle xpos="67" ypos="45" />
+		<obstacle xpos="42" ypos="59" />
+		<obstacle xpos="71" ypos="60" />
+	</obstacles>
+	<events>
+		<death param="12" />
+		<reproduction param="1" />
+		<move param="1" />
+	</events>
+</simulation>
